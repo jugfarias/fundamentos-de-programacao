@@ -4,6 +4,12 @@ function nomeDaFuncao(parametro1, parametro2) {
     return resultado;
 }
 
+// estrutura de uma arrow function
+let nomeDaFuncao = (parametro1, parametro2) => {
+    // código da função
+    return resultado;
+}
+
 // calculo de velocidade média com function
 function velocidadeMedia(distancia, tempo) {
     // declarar variável para armazenar o resultado
