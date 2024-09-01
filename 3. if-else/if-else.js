@@ -26,3 +26,10 @@ if (idade >= 18) {
 } else {    
     console.log("Menor de idade");
 }
+
+// exemplo de if ternário
+let mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+console.log(mensagem);
+
+// estrutura do if ternário: 
+// condição ? valor se verdadeiro : valor se falso
