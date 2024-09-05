@@ -34,7 +34,9 @@ Stack.prototype.print = function() {
     }
 }
 
+// cria uma pilha vazia
 let stack = new Stack;
+
 console.log("pilha:")
 stack.push("A");
 stack.push("B");
