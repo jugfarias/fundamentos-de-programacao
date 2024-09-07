@@ -1,12 +1,12 @@
 // exemplo de algoritmo com complexidade de tempo linear O(n)
 function buscaElemento (array, alvo) {
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] === alvo) {
-            return i;
+    for (let i = 0; i < array.length; i++) { // varre o array
+        if (array[i] === alvo) { // verifica se o elemento atual é o al
+            return i; // retorna o índice do elemento
         }
     }
 
-    return -1;
+    return -1; // retorna -1 se o elemento não for encontrado
 }
 
 const lista = [1, 2, 3, 4, 5];
