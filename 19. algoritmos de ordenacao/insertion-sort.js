@@ -19,3 +19,5 @@ function insertionSort(array) {
 
 const listaDesordenada = [42, 8, 16, 15, 23, 4]; 
 const listaOrdenada = insertionSort(listaDesordenada);
+
+console.log(listaOrdenada); // [ 4, 8, 15, 16, 23, 42 ]
