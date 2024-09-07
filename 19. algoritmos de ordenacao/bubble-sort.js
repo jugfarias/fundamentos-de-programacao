@@ -1,19 +1,19 @@
 function bubbleSort(array) {
-    const n = array.length;
-    let trocou;
+    const n = array.length; // Tamanho do array
+    let trocou; // Variável de controle
 
     do {
         trocou = false; // Se não houver troca, o array já está ordenado
 
-        for (let i = 0; i < n - 1; i++) {
-            if (array[i] > array[i + 1]) {
-                const temp = array[i];
-                array[i] = array[i + 1];
-                array[i + 1] = temp;
-                trocou = true;
+        for (let i = 0; i < n - 1; i++) { // Percorre o array
+            if (array[i] > array[i + 1]) { // Se o elemento atual for maior que o próximo
+                const temp = array[i]; // Troca os elementos
+                array[i] = array[i + 1]; // Atualiza o elemento atual
+                array[i + 1] = temp; // Atualiza o próximo elemento
+                trocou = true; // Atualiza a variável de controle
             }
         }
-    } while (trocou);
+    } while (trocou); // Enquanto houver troca, o array não está ordenado
 
     return array;
 }
